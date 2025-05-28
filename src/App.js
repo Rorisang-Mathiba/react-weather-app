@@ -3,19 +3,25 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>Weather App</h1>
+      <footer>
+        This project was created by{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Rorisang-Mathiba"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          Rorisang Mathiba
+        </a>{" "}
+        and is {""}
+        <a
+          href="https://github.com/Rorisang-Mathiba/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced
         </a>
-      </header>
+      </footer>
     </div>
   );
 }
