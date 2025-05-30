@@ -35,10 +35,14 @@
 .Weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
-  font-size: 64px;
+  font-size: 60px;
   margin-left: 5px;
-  line-height: 64px;
+  line-height: 1.5;
   font-weight: 400;
+}
+.Weather .float-left {
+  float: left;
+  width: auto;
 }
 
 .Weather .unit {
